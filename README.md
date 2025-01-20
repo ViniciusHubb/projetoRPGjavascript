@@ -1,6 +1,6 @@
 # RPG de Aventura - Jogo de Texto
 
-Bem-vindo ao **RPG de Aventura**! Este é um jogo baseado em texto desenvolvido em Node.js, onde você cria um personagem, escolhe uma classe, explora, enfrenta inimigos e desafia o temível Senhor das Trevas.
+Bem-vindo ao **RPG de Aventura**! Este é um jogo baseado em texto desenvolvido em Node.js, onde você cria um personagem, escolhe uma classe, explora, enfrenta inimigos e desafia o Senhor das Trevas.
 
 ## Funcionalidades
 
@@ -8,7 +8,7 @@ Bem-vindo ao **RPG de Aventura**! Este é um jogo baseado em texto desenvolvido 
 - Crie e personalize o seu personagem escolhendo entre Guerreiro, Mago ou Arqueiro.
 - Explore o mundo, enfrente inimigos e complete missões desafiadoras.
 - Sistema de progresso com níveis, experiência, loja e evolução do personagem.
-- Lute contra o Boss final e conquiste a vitória!
+- Lute contra o Boss final após concluir as missões.
 
 ## Como Executar
 
@@ -23,7 +23,7 @@ Bem-vindo ao **RPG de Aventura**! Este é um jogo baseado em texto desenvolvido 
    ```
 4. Inicie o jogo:
    ```bash
-   node index.js
+   node rpgnovo.js
    ```
 
 ## Como Jogar
@@ -41,12 +41,12 @@ Bem-vindo ao **RPG de Aventura**! Este é um jogo baseado em texto desenvolvido 
 - **Loja:** Compre poções para restaurar vida ou energia.
 - **Status:** Veja as estatísticas do seu personagem.
 - **Missões:** Acompanhe o progresso das missões.
-- **Enfrentar o Boss:** Lute contra o Senhor das Trevas (disponível após derrotar 3 inimigos).
+- **Enfrentar o Boss:** Lute contra o Senhor das Trevas (disponível após completar as missões).
 - **Sair:** Finalize o jogo.
 
 ## Estrutura do Projeto
 
-- `index.js`: Arquivo principal com a lógica do jogo.
+- `rpgnovo.js`: Arquivo principal com a lógica do jogo.
 - `readline-sync`: Biblioteca para leitura de entrada do jogador.
 
 ## Melhorias Futuras
@@ -54,6 +54,5 @@ Bem-vindo ao **RPG de Aventura**! Este é um jogo baseado em texto desenvolvido 
 - Adicionar mais inimigos e chefes.
 - Implementar um sistema de magias mais avançado.
 - Adicionar itens equipáveis como armas e armaduras.
-- Desenvolver uma interface gráfica para o jogo.
 
 **Divirta-se jogando!**
